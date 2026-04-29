@@ -1,6 +1,6 @@
 import { Header } from "../components/Header";
 import imgWhatsAppImage20260424At15024371 from "../../imports/Project1/fad48d3c97f3c57d94136831716cf9c9c86fa086.png";
-import imgVector from "../../imports/Project1/5b1f0f8f5c83da60bf4dc0d3e2450753cbfeefa2.png";
+import imgVector from "../../imports/Project1/Vector.png";
 import imgWhatsAppImage20260424At15024231 from "../../imports/Project1/20552b0978ebd913e07156d78406a6533f570a13.png";
 import imgMuralReels11Cover2 from "../../imports/Project1/a5ac3054d67cceda5ebc7aadafc92d74dd329ff2.png";
 
@@ -102,7 +102,7 @@ export default function Project1() {
     <div className="bg-white content-stretch flex flex-col gap-[32px] items-center relative size-full overflow-hidden" data-name="Project1">
       <Frame9 />
       <Frame3 />
-      <div className="h-[6162.169px] relative shrink-0 w-[1281px]" data-name="Vector">
+      <div className="h-[6162.169px] relative shrink-0 w-[100%]" data-name="Vector">
         <img alt="" className="absolute block inset-0 max-w-none size-full" height="6162.169" src={imgVector} width="1281" />
       </div>
       <div className="aspect-[720.1758422851562/480] relative shrink-0 w-full" data-name="WhatsApp Image 2026-04-24 at 15.02.42 (3) 1">
@@ -113,11 +113,16 @@ export default function Project1() {
           <div className="absolute bg-[rgba(0,0,0,0.6)] inset-0" />
         </div>
       </div>
-      <div className="absolute h-[688px] left-[444px] top-[7344px] w-[392px]" data-name="Mural reels 1.1-Cover 2">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[101.31%] left-0 max-w-none top-[-0.73%] w-full" src={imgMuralReels11Cover2} />
+      <div className="w-full flex justify-center"></div>
+      <a
+        target="_blank"
+        href="https://drive.google.com/drive/folders/1x2blLa6HhdEgE8m4qYPD26838S-cEuoq?usp=drive_link"
+        className="absolute top-[7491px] left-1/2 -translate-x-1/2"
+      >
+        <div className="w-[392px]">
+          <img src={imgMuralReels11Cover2} />
         </div>
-      </div>
+      </a>
     </div>
   );
 }

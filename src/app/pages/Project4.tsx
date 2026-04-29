@@ -178,7 +178,7 @@ export default function Project4() {
     <div className="bg-white content-stretch flex flex-col gap-[32px] items-center pb-[32px] relative size-full overflow-hidden" data-name="Project4">
       <Frame15 />
       <Frame2 />
-      <div className="h-[4907.083px] relative shrink-0 w-[1280px]" data-name="Vector">
+      <div className="h-[4907.083px] relative shrink-0 w-[100%]" data-name="Vector">
         <img alt="" className="absolute block inset-0 max-w-none size-full" height="4907.083" src={imgVector} width="1280" />
       </div>
       <Frame16 />

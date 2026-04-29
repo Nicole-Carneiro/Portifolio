@@ -153,7 +153,7 @@ export default function Project3() {
         </div>
       </div>
       <Frame14 />
-      <div className="h-[5742.875px] relative shrink-0 w-[1280px]" data-name="Vector">
+      <div className="h-[5742.875px] relative shrink-0 w-[100%]" data-name="Vector">
         <img alt="" className="absolute block inset-0 max-w-none size-full" height="5742.875" src={imgVector} width="1280" />
       </div>
     </div>

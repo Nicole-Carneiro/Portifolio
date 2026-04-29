@@ -1,6 +1,6 @@
 import svgPaths from "./svg-ne8x0vzqho";
 import imgWhatsAppImage20260424At15024371 from "./fad48d3c97f3c57d94136831716cf9c9c86fa086.png";
-import imgVector from "./5b1f0f8f5c83da60bf4dc0d3e2450753cbfeefa2.png";
+import imgVector from "./Vector.png";
 import imgWhatsAppImage20260424At15024231 from "./20552b0978ebd913e07156d78406a6533f570a13.png";
 import imgMuralReels11Cover2 from "./a5ac3054d67cceda5ebc7aadafc92d74dd329ff2.png";
 

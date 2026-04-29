@@ -97,42 +97,42 @@ function Frame5() {
 function Frame11() {
   return (
     <div className="bg-black h-[9324.521px] overflow-clip relative shrink-0 w-full">
-      <div className="absolute h-[715.78px] left-0 top-[4403.54px] w-[1271.861px]" data-name="D12 1">
+      <div className="absolute h-[715.78px] left-0 top-[4403.54px] w-[100%]" data-name="D12 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgD121} />
         </div>
       </div>
-      <div className="absolute h-[715.78px] left-0 top-[2212.95px] w-[1271.861px]" data-name="D11 1">
+      <div className="absolute h-[715.78px] left-0 top-[2212.95px] w-[100%]" data-name="D11 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgD111} />
         </div>
       </div>
-      <div className="absolute h-[715.78px] left-0 top-[3687.76px] w-[1271.861px]" data-name="D10 1">
+      <div className="absolute h-[715.78px] left-0 top-[3687.76px] w-[100%]" data-name="D10 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgD101} />
         </div>
       </div>
-      <div className="absolute h-[715.78px] left-0 top-[2952.59px] w-[1271.861px]" data-name="D7 1">
+      <div className="absolute h-[715.78px] left-0 top-[2952.59px] w-[100%]" data-name="D7 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgD71} />
         </div>
       </div>
-      <div className="absolute h-[715.78px] left-0 top-[1473.31px] w-[1271.861px]" data-name="D5 1">
+      <div className="absolute h-[715.78px] left-0 top-[1473.31px] w-[100%]" data-name="D5 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgD51} />
         </div>
       </div>
-      <div className="absolute h-[715.78px] left-0 top-[739.64px] w-[1271.861px]" data-name="D3 1">
+      <div className="absolute h-[715.78px] left-0 top-[739.64px] w-[100%]" data-name="D3 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgD31} />
         </div>
       </div>
-      <div className="absolute h-[715.78px] left-0 top-0 w-[1271.861px]" data-name="D2 1">
+      <div className="absolute h-[715.78px] left-0 top-0 w-[100%]" data-name="D2 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgD21} />
         </div>
       </div>
-      <div className="absolute h-[715.78px] left-0 top-[5143.17px] w-[1271.861px]" data-name="D13 1">
+      <div className="absolute h-[715.78px] left-0 top-[5143.17px] w-[100%]" data-name="D13 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgD131} />
         </div>

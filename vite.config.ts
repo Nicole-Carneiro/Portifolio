@@ -17,7 +17,6 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: '/Nicole-Carneiro/', // 👈 ESSENCIAL
   plugins: [
     figmaAssetResolver(),
     react(),

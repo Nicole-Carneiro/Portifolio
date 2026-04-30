@@ -12,6 +12,12 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #FFFFFF;
 }
 
 .title {

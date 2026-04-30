@@ -29,7 +29,12 @@ export default function Home() {
                         <div className="section section-pt">
                             <span className="lang-label pt">PT</span>
                             <p>
-                                <strong>My Friends Pets</strong> é uma marca que representa a união da qualidade de seus produtos naturais e a leveza da vida pet. As ilustrações de caráter lúdico buscam evocar a descontração da marca, sem deixar de lado a garantia clínica de produtos que priorizam a saúde e bem-estar animal. A linhaé composta por produtos cosméticos e alimentícios, e a composição de elementos visuais permite o crescimento de seu catálogo em expansão.
+                                <strong>My Friends Pets</strong> é uma marca que representa a união da qualidade de seus produtos naturais e a leveza da vida pet. As ilustrações de caráter lúdico buscam evocar a descontração
+                                <br />
+                                da marca, sem deixar de lado a garantia clínica de produtos que priorizam a saúde e bem-estar animal. A linha
+                                é composta por produtos cosméticos e alimentícios, e a composição
+                                <br />
+                                de elementos visuais permite o crescimento de seu catálogo em expansão.
                             </p>
                         </div>
                         <div className="section section-en">

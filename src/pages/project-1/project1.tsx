@@ -120,7 +120,7 @@ export default function Home() {
                             <span className="lang-label pt">PT</span>
                             <p>
                                 Minhas vivências estão refletidas em cada esquina desse projeto. Diversos
-                                elementos do livro <br />, do cenário e da narrativa, foram inspirados na casa da
+                                elementos do livro, <br /> do cenário e da narrativa, foram inspirados na casa da
                                 minha avó, e o design de personagens <br /> foi desenvolvido a partir de referências
                                 de membros da minha família.
                             </p>
@@ -130,7 +130,7 @@ export default function Home() {
                             <span className="lang-label en">EN</span>
                             <p>
                                 My personal experiences are reflected in every corner of this project. Many
-                                elements of the book <br />, from the settings to the narrative, are inspired by my
+                                elements of the book,<br /> from the settings to the narrative, are inspired by my
                                 grandmother's house, and the character <br /> design draws from members of my own family.
                             </p>
                         </div>

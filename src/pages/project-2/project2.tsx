@@ -42,7 +42,10 @@ export default function Home() {
                         <div className="section section-en">
                             <span className="lang-label en">EN</span>
                             <p>
-                                The mural <strong>Pé de Eugênia</strong> was created to bring art and colour to the city Ponte Nova, Minas Gerais, Brazil. The idea emerged from a search to incorporate a meaningful element of the city: the captivating eugenia trees (mostly known as jambo trees) that grow in grandmothers’ homes, schoolyards, and now also on the walls of Boulevard Colina shopping center.
+                                The mural <strong>Pé de Eugênia</strong> was created to bring art and colour to the city Ponte Nova, Minas Gerais, Brazil. The idea emerged from a search to incorporate a meaningful element
+                                <br />
+                                of
+                                the city: the captivating eugenia trees (mostly known as jambo trees) that grow in grandmothers’ homes, schoolyards, and now also on the walls of Boulevard Colina shopping center.
                             </p>
                         </div>
                     </div>

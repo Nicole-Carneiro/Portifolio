@@ -16,10 +16,8 @@ import im13 from "../../assets/project1/im13.png";
 import im14 from "../../assets/project1/im14.png";
 import im15 from "../../assets/project1/im15.png";
 import im16 from "../../assets/project1/im16.png";
-
+import { ScrollToTopButton } from "../../components/Scroll/scroll-to-top";
 import Header from "../../components/Header/header";
-
-
 
 export default function Home() {
     return (
@@ -69,7 +67,6 @@ export default function Home() {
                                 often overlooked.
                             </p>
                         </div>
-
                     </div>
                 </div >
                 <img className="expanded-image" src={im2}></img>
@@ -105,7 +102,6 @@ export default function Home() {
                     style={{ backgroundImage: `url(${im8})` }}
                 >
                     <div className="section2-text">
-
                         <div className="section section-es-small">
                             <span className="lang-label">ES</span>
                             <p>
@@ -115,7 +111,6 @@ export default function Home() {
                                 de referencias de miembros de mi familia.
                             </p>
                         </div>
-
                         <div className="section section-pt-small">
                             <span className="lang-label pt">PT</span>
                             <p>
@@ -125,7 +120,6 @@ export default function Home() {
                                 de membros da minha família.
                             </p>
                         </div>
-
                         <div className="section section-en-small">
                             <span className="lang-label en">EN</span>
                             <p>
@@ -134,7 +128,6 @@ export default function Home() {
                                 grandmother's house, and the character <br /> design draws from members of my own family.
                             </p>
                         </div>
-
                     </div>
                 </div>
                 <img className="expanded-image" src={im9}></img>
@@ -145,14 +138,13 @@ export default function Home() {
                     <img src={im13}></img>
                     <img src={im14}></img>
                     <img src={im15}></img>
-
                     <img src={im16}></img>
-
                 </div>
-                <div className='last-div'>
+                <div className='last-div-p1'>
                     <p>Ilustración | Diseño Gráfico | Diseño Editorial | Diseño de Personajes</p>
                 </div>
             </div >
+            <ScrollToTopButton />
         </>
     );
 }

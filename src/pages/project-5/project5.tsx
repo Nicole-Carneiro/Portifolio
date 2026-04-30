@@ -12,7 +12,7 @@ import im10 from "../../assets/project5/img10.png";
 import im11 from "../../assets/project5/img11.png";
 import im12 from "../../assets/project5/img12.png";
 import im13 from "../../assets/project5/img13.png";
-
+import { ScrollToTopButton } from "../../components/Scroll/scroll-to-top";
 import Header from "../../components/Header/header";
 
 
@@ -57,6 +57,7 @@ export default function Home() {
                 <img className="expanded-image" src={im12}></img>
                 <img className="expanded-image" src={im13}></img>
             </div>
+            <ScrollToTopButton variant="dark" />
         </>
     );
 }

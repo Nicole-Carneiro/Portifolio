@@ -150,8 +150,8 @@
     }
 }
 
-.last-div {
-    padding: 16px 100px 32px;
+.last-div-p1 {
+    padding: 16px 100px 0;
     font-size: 18px;
     font-family: 'Rethink Sans', sans-serif;
 }

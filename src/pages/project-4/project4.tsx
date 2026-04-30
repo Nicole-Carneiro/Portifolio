@@ -9,6 +9,7 @@ import im7 from "../../assets/project4/img7.jpg";
 import im8 from "../../assets/project4/img8.jpg";
 import im9 from "../../assets/project4/img9.jpg";
 import Header from "../../components/Header/header";
+import { ScrollToTopButton } from "../../components/Scroll/scroll-to-top";
 
 
 export default function Home() {
@@ -75,6 +76,7 @@ export default function Home() {
                 </div>
 
             </div>
+            <ScrollToTopButton />
         </>
     );
 }

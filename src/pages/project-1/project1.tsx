@@ -31,7 +31,7 @@ export default function Home() {
                     className="book-container"
                     style={{ backgroundImage: `url(${bg})` }}
                 >
-                    <div className="book-text">
+                    <div className="book-text-no-padding">
                         <div className="section section-es-small">
                             <span className="lang-label">ES</span>
                             <p className="first-paragraph">

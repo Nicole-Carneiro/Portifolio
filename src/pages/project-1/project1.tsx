@@ -32,7 +32,7 @@ export default function Home() {
                     style={{ backgroundImage: `url(${bg})` }}
                 >
                     <div className="book-text">
-                        <div className="section section-es">
+                        <div className="section section-es-small">
                             <span className="lang-label">ES</span>
                             <p className="first-paragraph">
                                 El álbum ilustrado <strong>Max e o Lado de Lá do Lago</strong> (Max y El Otro Lado
@@ -46,7 +46,7 @@ export default function Home() {
                                 pasan desapercibidas.
                             </p>
                         </div>
-                        <div className="section section-pt">
+                        <div className="section section-pt-small">
                             <span className="lang-label pt">PT</span>
                             <p>
                                 O álbum ilustrado <strong>Max e o Lado de Lá do Lago</strong> é fruto de um
@@ -57,7 +57,7 @@ export default function Home() {
                                 são muitas vezes esquecidas.
                             </p>
                         </div>
-                        <div className="section section-en">
+                        <div className="section section-en-small">
                             <span className="lang-label en">EN</span>
                             <p>
                                 <strong>Max e o Lado de Lá do Lago</strong> (Max and the Far Side of the Lake)
@@ -80,19 +80,19 @@ export default function Home() {
                 <img className="expanded-image" src={im7}></img>
                 <div className="second-row">
                     <div className="book-text ">
-                        <div className="section section-es">
+                        <div className="section section-es-small">
                             <span className="lang-label">ES</span>
                             <p>
                                 Todas las ilustraciones de este proyecto fueron realizadas a mano, utilizando pintura gouache, pastel al óleo y lápices de colores.
                             </p>
                         </div>
-                        <div className="section section-pt">
+                        <div className="section section-pt-small">
                             <span className="lang-label pt">PT</span>
                             <p>
                                 Todas as ilustrações desse projeto foram feitas à mão, utilizando tinta guache, giz pastel oleoso e lápis de cor.
                             </p>
                         </div>
-                        <div className="section section-en">
+                        <div className="section section-en-small">
                             <span className="lang-label en">EN</span>
                             <p>
                                 All the illustrations in this project were created by hand, using gouache paint, oil pastels, and colored pencils.
@@ -106,7 +106,7 @@ export default function Home() {
                 >
                     <div className="section2-text">
 
-                        <div className="section section-es">
+                        <div className="section section-es-small">
                             <span className="lang-label">ES</span>
                             <p>
                                 Mis vivencias se reflejan en cada rincón de este proyecto. Muchos de los
@@ -116,7 +116,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="section section-pt">
+                        <div className="section section-pt-small">
                             <span className="lang-label pt">PT</span>
                             <p>
                                 Minhas vivências estão refletidas em cada esquina desse projeto. Diversos
@@ -126,7 +126,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="section section-en">
+                        <div className="section section-en-small">
                             <span className="lang-label en">EN</span>
                             <p>
                                 My personal experiences are reflected in every corner of this project. Many

@@ -50,20 +50,20 @@
     font-size: 14px;
 }
 
-.section-es {
+.section-es-small {
     display: flex;
     flex-direction: column;
     max-width: 78%;
 }
 
-.section-es p {
+.section-es-small p {
     font-size: 18px;
     line-height: 1.65;
     color: #0F0F0F;
     margin: 0 0 16px;
 }
 
-.section-es p:last-child {
+.section-es-small p:last-child {
     margin-bottom: 0;
 }
 
@@ -71,8 +71,8 @@
     margin-bottom: 20px;
 }
 
-.section-pt,
-.section-en {
+.section-pt-small,
+.section-en-small {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -100,9 +100,9 @@
 .second-row {
     padding: 16px 100px;
 
-    .section-es,
-    .section-pt,
-    .section-en {
+    .section-es-small,
+    .section-pt-small,
+    .section-en-small {
         max-width: 100%;
     }
 }
@@ -119,9 +119,9 @@
     background-position: left top;
     background-repeat: no-repeat;
 
-    .section-es,
-    .section-pt,
-    .section-en {
+    .section-es-small,
+    .section-pt-small,
+    .section-en-small {
         max-width: 100%;
     }
 }

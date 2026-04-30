@@ -79,7 +79,7 @@ export default function Home() {
                 <img className="expanded-image" src={im6}></img>
                 <img className="expanded-image" src={im7}></img>
                 <div className="second-row-max">
-                    <div className="book-text ">
+                    <div className="book-text-no-padding">
                         <div className="section section-es-small">
                             <span className="lang-label">ES</span>
                             <p>

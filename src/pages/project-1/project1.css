@@ -26,7 +26,7 @@
     background-repeat: no-repeat;
 }
 
-.book-text {
+.book-text-no-padding {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -52,7 +52,6 @@
 .section-es-small {
     display: flex;
     flex-direction: column;
-    width: 81%;
     max-width: 873px;
 }
 
@@ -74,7 +73,6 @@
 .section-en-small {
     display: flex;
     flex-direction: column;
-    width: 67%;
     max-width: 728px;
 }
 

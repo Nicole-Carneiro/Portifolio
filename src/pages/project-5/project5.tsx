@@ -23,23 +23,23 @@ export default function Home() {
             <div className="project-5">
                 <img className="full-image" src={img1} alt="Pinturas al óleo y acrílicas  " />
                 <div className="second-row">
-                    <div className="book-text ">
+                    <div className="book-text-no-padding">
                         <div className="section section-es-white">
                             <span className="lang-label-white">ES</span>
                             <p>
-                                Pinturas al óleo y acrílico sobre lienzo.
+                                Esta selección de proyectos personales explora, ante todo, la versatilidad del pastel al óleo. Las piezas <br /> investigan la creación de texturas complejas mediante el uso de técnicas mixtas, buscando soluciones <br /> visuales a través de la combinación de materiales como ceras, acrílicos, gouache y lápices de colores.
                             </p>
                         </div>
                         <div className="section section-pt-white">
                             <span className="lang-label-white pt">PT</span>
                             <p>
-                                Pinturas a óleo e acrílica sobre tela.
+                                Essa seleção de projetos pessoais explora, principalmente, a versatilidade do giz pastel oleoso. As peças investigam também a criação <br /> de diferentes texturas por meio do mix de mídias, buscando diferentes soluções visuais e técnicas através da mescla giz de cera, giz  <br />  oleoso, tinta acrílica, tinta gouache e lápis de cor.
                             </p>
                         </div>
                         <div className="section section-en-white">
                             <span className="lang-label-white en">EN</span>
                             <p>
-                                Oil and acrylic paintings on canvas.
+                                This curated selection of personal projects centers on the versatility of oil pastels. These pieces explore the creation of different textures <br /> through mixed media experimentation: blending crayons, acrylics, gouache, and colored pencils to discover unique visual and technical <br /> solutions.
                             </p>
                         </div>
                     </div>

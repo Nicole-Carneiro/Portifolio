@@ -16,16 +16,17 @@ import im14 from "../../assets/project2/img14.png";
 import im15 from "../../assets/project2/img15.jpeg";
 import im16 from "../../assets/project2/img16.png";
 import Header from "../../components/Header/header";
-
+import { useState } from "react";
 
 export default function Home() {
+    const [open, setOpen] = useState(false);
     return (
         <>
             <Header />
             <div className="project-2">
                 <img className="full-image" src={img1} alt="Pé de Eugênias" />
                 <div className="second-row">
-                    <div className="book-text ">
+                    <div className="book-text-no-padding">
                         <div className="section section-es">
                             <span className="lang-label">ES</span>
                             <p>
@@ -46,32 +47,44 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <img className="expanded-image" src={im2}></img>
-                <img className="expanded-image" src={im2}></img>
-                <div className="split-image">
-                    <img className="expanded-image" src={im3}></img>
-                    <img className="expanded-image" src={im4}></img>
-                    <img className="expanded-image" src={im5}></img>
-                    <img className="expanded-image" src={im6}></img>
-                </div>
-                <img className="expanded-image" src={im6}></img>
-                <img className="expanded-image" src={im7}></img>
-                <img className="expanded-image" src={im8}></img>
-                <img className="expanded-image" src={im9}></img>
-                <img className="expanded-image" src={im10}></img>
-                <div className="three-image">
-                    <img className="lateral-image" src={im11}></img>
-                    <img className="center-image" src={im12}></img>
-                    <img className="lateral-image" src={im13}></img>
-                </div>
+                    <img className="expanded-image" src={im2}></img>
+                    <div className="split-image">
+                        <img className="expanded-image" src={im3}></img>
+                        <img className="expanded-image" src={im4}></img>
+                        <img className="expanded-image" src={im5}></img>
+                        <img className="expanded-image" src={im6}></img>
+                    </div>
+                    <img className="expanded-image" src={im7}></img>
+                    <img className="expanded-image" src={im8}></img>
+                    <img className="expanded-image" src={im9}></img>
+                    <img className="expanded-image" src={im10}></img>
+                    <div className="three-image">
+                        <img className="lateral-image" src={im11}></img>
+                        <img className="center-image" src={im12}></img>
+                        <img className="lateral-image" src={im13}></img>
+                    </div>
                 <img className="expanded-image" src={im14}></img>
-                <img className="expanded-image" src={im15}></img>
-                <a target="_blank" href="https://drive.google.com/drive/folders/1x2blLa6HhdEgE8m4qYPD26838S-cEuoq" className="container">
-                    <img className="img15" src={im15}></img>
-                    <div className="overlay"></div>
-                    <img className="img16" src={im16}></img>
-                </a>
-            </div>                                                                                                                                                           
-        </>                                
-    );                                
+                <div className="container" onClick={() => setOpen(true)}>
+                    {!open && (
+                        <>
+                            <img className="img15" src={im15} />
+                            <div className="overlay"></div>
+                            <div className="playIcon">
+                                ▶
+                            </div>
+                            <img className="img16" src={im16} />
+                        </>
+                    )}
+                    {open && (
+                        <iframe
+                            src="https://drive.google.com/file/d/15fcQGgqVt7FA2-qtr8mXG060d2XG5G8h/preview"
+                            width="100%"
+                            height="500"
+                            allow="autoplay"
+                        />
+                    )}
+                </div>
+                </div>                                                                                                                                                            
+        </>        
+    );
 }

@@ -14,8 +14,7 @@
     z-index: 2;
 }
 
-.book-text {
-    flex: 1;
+.book-text-no-padding {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -52,7 +51,6 @@
 
 .section-es-white p {
     font-size: 18px;
-    line-height: 1.65;
     color: #FFFFFF;
     margin: 0 0 16px;
 }
@@ -67,7 +65,6 @@
 
 .section-pt-white,
 .section-en-white {
-    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -75,7 +72,6 @@
 .section-pt-white p,
 .section-en-white p {
     font-size: 14px;
-    line-height: 1.6;
     color: #c8c8c8;
     margin: 0;
 }

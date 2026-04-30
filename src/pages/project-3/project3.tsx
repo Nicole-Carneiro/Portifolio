@@ -18,8 +18,8 @@ export default function Home() {
                     <img className="full-image" src={img1} alt="My friends pet cosmetics" />
                     <img className="full-image" src={im2} />
                 </div>
-                <div className="second-row">
-                    <div className="book-text ">
+                <div className="second-row-different">
+                    <div className="book-text-no-padding">
                         <div className="section section-es">
                             <span className="lang-label">ES</span>
                             <p>
@@ -48,7 +48,7 @@ export default function Home() {
                     <img className="expanded-image" src={im9}></img>
                 </div>
                 <div className="identidade-visual">
-                    <span className="lang-label">Diseño de Packaging | Identidad Visual | Ilustración</span>
+                    <span className="component-title">Diseño de Packaging | Identidad Visual | Ilustración</span>
                     <div className="section section-pt">
                         <span className="lang-label pt">ES</span>
                         <p>

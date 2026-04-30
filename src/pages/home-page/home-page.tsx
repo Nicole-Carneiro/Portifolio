@@ -40,14 +40,14 @@ export default function Home() {
             <span className="subcaption">Serigrafia experimental</span>
           </div>
         </Link >
-        <Link to="/project5" className="item">
-          <img src={pastel} alt="Pinturas al óleo y acrílicas" />
+        <Link to="/project6" className="item">
+          <img src={pinturas} alt="Pinturas al óleo y acrílicas" />
           <div className="text">
             <span className="caption">Pinturas al óleo y acrílicas</span>
           </div>
         </Link >
-        <Link to="/project6" className="item">
-          <img src={pinturas} alt="Pastel al óleo" />
+        <Link to="/project5" className="item">
+          <img src={pastel} alt="Pastel al óleo" />
           <div className="text">
             <span className="caption">Pastel al óleo</span>
             <span className="subcaption">Proyectos personales</span>

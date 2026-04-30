@@ -17,33 +17,33 @@ export default function Home() {
             <Header />
             <div className="project-3">
                 <img className="full-image" src={img1} alt="Never let me go" />
-                <div className="second-row">
-                    <div className="book-text ">
+                <div className="second-row-small">
+                    <div className="book-text-no-padding">
                         <div className="section section-es">
                             <span className="lang-label">ES</span>
                             <p>
-                                Este es un proyecto experimental de carácter libre desarrollado en el taller de Serigrafía – Métodos Alternativos, de la Escuela Guignard (UEMG). El proceso se inició con dibujos manuales en grafito sobre papel transparente, seguidos por la grabación de la pantalla en mesa de luz. Se exploraron mezclas de pigmentos, transparenciasy impresión sobre distintas superficies.
+                                Este es un proyecto experimental de carácter libre desarrollado en el taller de Serigrafía – Métodos Alternativos, <br /> de la Escuela Guignard (UEMG). El proceso se inició con dibujos manuales en grafito sobre papel transparente,  <br />seguidos por la grabación de la pantalla en mesa de luz. Se exploraron mezclas de pigmentos, transparencias <br /> y impresión sobre distintas superficies.
                             </p>
                         </div>
                         <div className="section section-pt">
                             <span className="lang-label pt">PT</span>
                             <p>
                                 Projeto experimental livre desenvolvido no Ateliê de Serigrafia - Métodos Alternativos, da Escola Guignard, UEMG.
-                                O processo teve iníciocom desenho manual em grafite em papel transparente, em seguida foi feita a gravação da tela na mesa de luz. Foram exploradas misturas de pigmentos, de transparências e impressões em diferentes superfícies.
+                                O processo teve início <br /> com desenho manual em grafite em papel transparente, em seguida foi feita a gravação da tela na mesa de luz. Foram exploradas <br /> misturas de pigmentos, de transparências e impressões em diferentes superfícies.
                             </p>
                         </div>
                         <div className="section section-en">
                             <span className="lang-label en">EN</span>
                             <p>
-                                This is an open-ended experimental project developed in the Alternative Screen Printing Methods studio at Guignard School (UEMG).
-                                The process starded with hand-drawn graphite illustrations on transparent paper, followed by screen exposure using a light table. The project explored pigment mixing, transparency, and printing on a variety of surfaces.
+                                This is an open-ended experimental project developed in the Alternative Screen Printing Methods studio at Guignard School (UEMG). <br />
+                                The process starded with hand-drawn graphite illustrations on transparent paper, followed by screen exposure using a light table. <br /> The project explored pigment mixing, transparency, and printing on a variety of surfaces.
                             </p>
                         </div>
                     </div>
                 </div>
                 <img className="expanded-image" src={im2}></img>
-                <div className="second-row">
-                    <div className="book-text ">
+                <div className="machine">
+                    <div className="book-text-no-padding">
                         <div className="section section-es">
                             <span className="lang-label">ES</span>
                             <p>

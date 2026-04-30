@@ -10,7 +10,7 @@ import im8 from "../../assets/project2/img8.jpeg";
 import im9 from "../../assets/project2/img9.jpeg";
 import im10 from "../../assets/project2/img10.jpeg";
 import im11 from "../../assets/project2/img11.png";
-import im12 from "../../assets/project2/img12.jpeg";
+import im12 from "../../assets/project2/mural.jpeg";
 import im13 from "../../assets/project2/img13.jpeg";
 import im14 from "../../assets/project2/img14.png";
 import im15 from "../../assets/project2/img15.jpeg";
@@ -71,7 +71,7 @@ export default function Home() {
                     <div className="overlay"></div>
                     <img className="img16" src={im16}></img>
                 </a>
-            </div>                                                                                                                                                 
-        </>                              
-    );                              
+            </div>                                                                                                                                                           
+        </>                                
+    );                                
 }

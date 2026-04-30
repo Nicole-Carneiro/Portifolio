@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@300;400;500;600;700&display=swap');
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+
+
+.book-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: 'Rethink Sans', sans-serif;
+    padding: 0 32px;
+}
+
+.lang-label {
+    display: block;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0F0F0F;
+    margin-bottom: 10px;
+}
+
+.lang-label.pt,
+.lang-label.en {
+    color: #817F7F;
+    font-size: 14px;
+}
+
+.section-es {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+}
+
+.section-es p {
+    font-size: 18px;
+    line-height: 1.65;
+    color: #0F0F0F;
+    margin: 0 0 16px;
+}
+
+.section-es p:last-child {
+    margin-bottom: 0;
+}
+
+.first-paragraph {
+    margin-bottom: 20px;
+}
+
+.section-pt,
+.section-en {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.section-pt p,
+.section-en p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #817F7F;
+    margin: 0;
+}
+
+.book-text strong {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.expanded-image {
+    width: 100%;
+    max-height: 100%;
+}
+
+.split-image {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}

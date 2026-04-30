@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@300;400;500;600;700&display=swap');
+
+.project-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #000000;
+}
+
+.full-image {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.book-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    z-index: 3;
+    font-family: 'Rethink Sans', sans-serif;
+
+}
+
+.lang-label-white {
+    display: block;
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.lang-label-white {
+    color: #FFFFFF;
+
+}
+
+.lang-label-white.pt,
+.lang-label-white.en {
+    color: #c8c8c8;
+    font-size: 14px;
+}
+
+.section-es-white {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.section-es-white p {
+    font-size: 18px;
+    line-height: 1.65;
+    color: #FFFFFF;
+    margin: 0 0 16px;
+}
+
+.section-es-white p:last-child {
+    margin-bottom: 0;
+}
+
+.first-paragraph {
+    margin-bottom: 20px;
+}
+
+.section-pt-white,
+.section-en-white {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-pt-white p,
+.section-en-white p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #c8c8c8;
+    margin: 0;
+}
+
+.book-text strong {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.expanded-image {
+    width: 100%;
+    max-height: 100%;
+}
+
+.split-image {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.second-row {
+    padding: 16px 180px;
+
+}
+
+.complete-image {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+    }
+}

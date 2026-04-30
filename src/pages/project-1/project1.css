@@ -52,7 +52,7 @@
 .section-es-small {
     display: flex;
     flex-direction: column;
-    max-width: 873px;
+    max-width: 100%
 }
 
 .section-es-small p {
